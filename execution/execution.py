@@ -1,6 +1,6 @@
 
-# codice python relativo all'articolo presente su datatrading.info
-# https://datatrading.info/motore-di-backtesting-con-python-parte-vi-esecuzione-degli-ordini/
+# codice python relativo all'articolo presente su tradingquant.it
+# https://tradingquant.it/motore-di-backtesting-con-python-parte-vi-esecuzione-degli-ordini/
 
 # execution.py
 
@@ -9,7 +9,7 @@ import queue
 
 from abc import ABCMeta, abstractmethod
 
-from event.event import FillEvent, OrderEvent
+from event import FillEvent, OrderEvent
 
 
 class ExecutionHandler(object):

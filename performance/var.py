@@ -1,4 +1,4 @@
-# https://datatrading.info/value-at-risk-var-per-il-risk-management-nel-trading-algoritmico/
+# https://tradingquant.it/value-at-risk-var-per-il-risk-management-nel-trading-algoritmico/
 
 # var.py
 

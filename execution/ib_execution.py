@@ -1,6 +1,6 @@
 
-# codice python relativo all'articolo presente su datatrading.info
-# https://datatrading.info/motore-di-backtesting-con-python-parte-ix-connessione-con-ib/
+# codice python relativo all'articolo presente su tradingquant.it
+# https://tradingquant.it/motore-di-backtesting-con-python-parte-ix-connessione-con-ib/
 
 # ib_execution.py
 
@@ -11,8 +11,8 @@ from ib.ext.Contract import Contract
 from ib.ext.Order import Order
 from ib.opt import ibConnection, message
 
-from event.event import FillEvent, OrderEvent
-from execution.execution import ExecutionHandler
+from event import FillEvent, OrderEvent
+from execution import ExecutionHandler
 
 
 class IBExecutionHandler(ExecutionHandler):

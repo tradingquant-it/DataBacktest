@@ -1,6 +1,6 @@
 
-# codice python relativo all'articolo presente su datatrading.info
-# https://datatrading.info/motore-di-backtesting-con-python-parte-v-portafoglio/
+# codice python relativo all'articolo presente su tradingquant.it
+# https://tradingquant.it/motore-di-backtesting-con-python-parte-v-portafoglio/
 
 
 
@@ -14,8 +14,8 @@ import queue
 from abc import ABCMeta, abstractmethod
 from math import floor
 
-from event.event import FillEvent, OrderEvent
-from performance.performance import create_sharpe_ratio, create_drawdowns
+from event import FillEvent, OrderEvent
+from performance import create_sharpe_ratio, create_drawdowns
 
 # portfolio.py
 

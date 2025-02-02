@@ -1,6 +1,6 @@
 
-# codice python relativo all'articolo presente su datatrading.info
-# https://datatrading.info/motore-di-backtesting-con-python-parte-iii-dati-di-mercato/
+# codice python relativo all'articolo presente su tradingquant.it
+# https://tradingquant.it/motore-di-backtesting-con-python-parte-iii-dati-di-mercato/
 
 # data.py
 

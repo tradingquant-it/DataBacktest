@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # forecast.py
 
-# codice python relativo all'articolo presente su datatrading.info
-# https://datatrading.info/introduzione-al-forecasting-delle-serie-temporali-finanziare-2/
+# codice python relativo all'articolo presente su tradingquant.it
+# https://tradingquant.it/introduzione-al-forecasting-delle-serie-temporali-finanziare-2/
 
 import datetime
 import numpy as np

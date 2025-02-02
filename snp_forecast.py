@@ -1,5 +1,5 @@
-# codice python relativo all'articolo presente su datatrading.info
-# https://datatrading.info/implementazione-di-una-strategia-di-forecasting-sullsp500/
+# codice python relativo all'articolo presente su tradingquant.it
+# https://tradingquant.it/implementazione-di-una-strategia-di-forecasting-sullsp500/
 
 
 # snp_forecast.py

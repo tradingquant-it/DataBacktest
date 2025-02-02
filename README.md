@@ -1,6 +1,6 @@
 # DataBacktest
 Framework per un approccio più realistico alla simulazione della strategia di trading, usando Python per costruire un ambiente di backtesting basato sugli eventi.
-## www.datatrading.info
+## www.tradingquant.it
 
 ### Perchè abbiamo bisogno di un Backtesting Event-Driven
 I sistemi basati sugli eventi offrono molti vantaggi rispetto a un approccio vettorializzato:

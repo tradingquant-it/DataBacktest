@@ -1,6 +1,6 @@
 
-# codice python relativo all'articolo presente su datatrading.info
-# https://datatrading.info/motore-di-backtesting-con-python-parte-iv-gestione-della-strategia/
+# codice python relativo all'articolo presente su tradingquant.it
+# https://tradingquant.it/motore-di-backtesting-con-python-parte-iv-gestione-della-strategia/
 
 # strategy.py
 
@@ -11,7 +11,7 @@ import queue
 
 from abc import ABCMeta, abstractmethod
 
-from event.event import SignalEvent
+from event import SignalEvent
 
 
 class Strategy(object):

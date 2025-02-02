@@ -1,4 +1,4 @@
-# https://datatrading.info/sharpe-ratio-per-la-misura-delle-prestazioni-del-trading-algoritmico/
+# https://tradingquant.it/sharpe-ratio-per-la-misura-delle-prestazioni-del-trading-algoritmico/
 
 import datetime
 import numpy as np

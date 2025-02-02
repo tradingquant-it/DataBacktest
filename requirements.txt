@@ -1,3 +1,4 @@
+pmdarima
 numpy
 scipy
 matplotlib

@@ -1,4 +1,4 @@
-# https://datatrading.info/come-creare-un-account-demo-su-interactive-brokers/
+# https://tradingquant.it/come-creare-un-account-demo-su-interactive-brokers/
 
 # ib_api_demo.py
 
