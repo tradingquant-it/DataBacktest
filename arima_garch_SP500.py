@@ -1,5 +1,4 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
+
 # arima_garch_SP500.py
 
 # codice python relativo all'articolo presente su tradingquant.it

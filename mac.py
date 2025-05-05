@@ -1,5 +1,3 @@
-# codice python relativo all'articolo presente su tradingquant.it
-# https://tradingquant.it/implementazione-di-una-strategia-di-moving-average-crossover/
 
 # mac.py
 

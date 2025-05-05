@@ -1,5 +1,9 @@
-# DataBacktest
+# TQTradingSystem
 Framework per un approccio più realistico alla simulazione della strategia di trading, usando Python per costruire un ambiente di backtesting basato sugli eventi.
+
+CODICE DEL CORSO "TRADING SYSTEM EVENT DRIVEN CON PYTHON"
+### www.tradingquant.it/corsi/trading-system-event-driven-con-python/
+
 ## www.tradingquant.it
 
 ### Perchè abbiamo bisogno di un Backtesting Event-Driven
@@ -18,19 +22,11 @@ In secondo luogo, hanno tempi di esecuzione più lenti da eseguire rispetto a un
 Per applicare un approccio event-driven a un sistema di backtesting è necessario definire i componenti base (o oggetti) che gestiscono compiti specifici:
 
 Event: l’Event è la classe fondamentale di un sistema event-driven. Contiene un attributto “tipo” (ad esempo, “MARKET”, “SIGNAL”, “ORDER” o “FILL”) che determina come viene gestito uno specifico evento all’interno dell’event-loop.<br>
-
 Event Queue: la Coda degli Eventi è un oggetto Python Queue che memorizza tutti gli oggetti della sotto-classe Event generati dal resto del software.<br>
-
 DataHandler: il DataHandler è una classe base astratta (ABC) che presenta un’interfaccia per la gestione di dati storici o del mercato in tempo reale. Fornisce una significativa flessibilità in quanto i moduli della strategia e del portfolio possono essere riutilizzati da entrambi gli approcci. Il DataHandler genera un nuovo MarketEvent ad loop del sistema (vedi sotto).<br>
-
 Strategy: anche la Strategy è una classe ABC e presenta un’interfaccia per elaborare i dati di mercato e generare i corrispondenti SignalEvents, che vengono infine utilizzati dall’oggetto Portfolio. Un SignalEvent contiene un simbolo ticker, una direzione (LONG or SHORT) e un timestamp.<br>
-
 Portfolio: si tratta di una classe ABC che implementa la gestione degli ordini associata alle posizioni attuali e future di una strategia. Svolge anche la gestione del rischio in tutto il portafoglio, compresa l’esposizione settoriale e il dimensionamento delle posizioni. In un’implementazione più sofisticata, questo potrebbe essere delegato a una classe RiskManagement. La classe Portfolio prende un SignalEvents dalla coda e genera uno o più OrderEvents che vengono aggiunti alla coda.<br>
-
 ExecutionHandler: l’ExecutionHandler simula una connessione a una società di intermediazione o broker. Il suo compito consiste nel prelevare gli OrderEvents dalla coda ed eseguirli, tramite un approccio simulato o una connessione reale verso il broker. Una volta eseguiti gli ordini, il gestore crea i FillEvents, che descrivono ciò che è stato effettivamente scambiato, comprese le commissioni, lo spread e lo slippage (se modellato).<br>
-
 Loop – Tutti questi componenti sono racchiusi in un event-loop che gestisce correttamente tutti i tipi di eventi, indirizzandoli al componente appropriato.<br><br>
-
-
 Questo è il modello base di un motore di trading. Vi è un significativo margine di espansione, in particolare per quanto riguarda l’utilizzo del portafoglio. Inoltre, i diversi modelli di costo delle transazioni possono essere implementati utilizzando una propria gerarchia di classi. In questa fase però introdurrebbe una complessità inutile all’interno di questa serie di articoli, quindi al momento non viene approfondita ulteriormente. 
 

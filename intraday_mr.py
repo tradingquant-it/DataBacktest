@@ -1,6 +1,3 @@
-# codice python relativo all'articolo presente su tradingquant.it
-# https://tradingquant.it/strategia-di-mean-reversion-per-il-pairs-trading-intraday/
-
 
 # intraday_mr.py
 
